@@ -36,18 +36,34 @@ if length1 > length2 :
 else:
     print("string2 is larger than string1")
 
+# The above works nicely
+# You can also use the builtin len() function 
+
+if len(string1) > len(string2):
+    print(string1)
+else:
+    print(string2)
+    
+    
 #for loop to print even numbers between 1 to 100
 
 for i in range( 0, 101, 2):
     print(i)
 
-#while loop to print even numbers
+# The above works nicely
+# How would you rewrite this using the % operator?
+    
+    
+# while loop to print even numbers
 
 i = 0
 while ( i <= 100):
     i += 2
     print(i)
 
+# Nice, same thing, how to rewrite this using the modulus operator     
+    
+    
 #nested loop to print astrick
 
 rows = 3
